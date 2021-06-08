@@ -1,0 +1,20 @@
+import Fonts from '../../Styles/Fonts';
+import { StyleSheet } from 'react-native';
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+  },
+  title: {
+    color: '#968989',
+    fontSize: 14,
+    fontWeight: 'bold',
+  },
+  textInput: {
+    ...Fonts.STYLE.normal,
+    color: '#321C1C',
+    fontSize: 14,
+  },
+  boxInput: { borderColor: '#321C1C', borderBottomWidth: 0.5 },
+});
+export default styles;
